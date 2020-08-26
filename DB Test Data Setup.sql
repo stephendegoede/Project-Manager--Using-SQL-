@@ -1,22 +1,26 @@
--- create table projects (pNumber varchar(255), 
--- pName varchar(255), 
--- bType varchar(255), 
--- pAddress varchar(255), 
--- erfNumber varchar(255), 
--- totalCharge float, 
--- paidToDate float, 
--- deadline varchar(255), 
--- architect varchar(255), 
--- contractor varchar(255), 
--- customer varchar(255), 
--- primary key (pNumber));
+-- DB Name: PoisePMS
+-- Username: otheruser
+-- Password: swordfish
 
--- create table person (personName varchar(255), 
--- jobDescription varchar(255), 
--- telephone varchar(255), 
--- email varchar(255), 
--- personAddress varchar (255),
--- primary key (personName));
+create table projects (pNumber varchar(255), 
+pName varchar(255), 
+bType varchar(255), 
+pAddress varchar(255), 
+erfNumber varchar(255), 
+totalCharge float, 
+paidToDate float, 
+deadline varchar(255), 
+architect varchar(255), 
+contractor varchar(255), 
+customer varchar(255), 
+primary key (pNumber));
+
+create table person (personName varchar(255), 
+jobDescription varchar(255), 
+telephone varchar(255), 
+email varchar(255), 
+personAddress varchar (255),
+primary key (personName));
 
 insert into projects values ('1001', 
 'The Highline', 
